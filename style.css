@@ -612,6 +612,10 @@ a {
         align-items: flex-start;
     }
 
+    .panel-header h2 {
+        font-size: 2.5rem;
+    }
+
     .brand {
         gap: 14px;
     }
@@ -624,5 +628,123 @@ a {
     .tab {
         padding: 14px 16px;
         font-size: 0.95rem;
+    }
+
+    .socials-grid {
+        gap: 12px;
+    }
+
+    .socials-grid button {
+        padding: 14px 18px;
+        font-size: 0.95rem;
+    }
+
+    .socials-grid button:before {
+        width: 20px;
+        height: 20px;
+    }
+
+    .photo-column {
+        width: 250px;
+        margin-right: 20px;
+    }
+
+    .photo-placeholder {
+        width: 100%;
+        height: auto;
+    }
+
+    .work-table table {
+        font-size: 0.9rem;
+    }
+
+    .work-table th,
+    .work-table td {
+        padding: 12px 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    .panel {
+        padding: 30px 15px;
+    }
+
+    .panel-header {
+        margin-bottom: 30px;
+    }
+
+    .panel-header h2 {
+        font-size: 2rem;
+    }
+
+    .panel-subtitle {
+        font-size: 1rem;
+    }
+
+    .socials-grid {
+        gap: 10px;
+        max-width: 100%;
+    }
+
+    .socials-grid button {
+        padding: 12px 16px;
+        font-size: 0.9rem;
+    }
+
+    .socials-grid button:before {
+        width: 18px;
+        height: 18px;
+    }
+
+    .about-grid {
+        max-width: 100%;
+    }
+
+    .photo-column {
+        float: none;
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 20px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .photo-placeholder {
+        width: 200px;
+        height: 200px;
+    }
+
+    .about-grid p {
+        font-size: 0.95rem;
+        line-height: 1.5;
+    }
+
+    .work-table {
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+    }
+
+    .work-table table {
+        min-width: 600px;
+        font-size: 0.85rem;
+    }
+
+    .work-table th,
+    .work-table td {
+        padding: 10px 12px;
+        white-space: nowrap;
+    }
+
+    .brand h1 {
+        font-size: 1rem;
+    }
+
+    .brand p {
+        font-size: 0.9rem;
+    }
+
+    .tab {
+        padding: 12px 14px;
+        font-size: 0.9rem;
     }
 }
